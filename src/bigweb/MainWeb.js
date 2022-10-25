@@ -1,4 +1,3 @@
-import { ResultType } from "@remix-run/router/dist/utils";
 import React from "react";
 
 import './MainWeb.css';
