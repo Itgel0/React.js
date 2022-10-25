@@ -1,0 +1,60 @@
+.webContainer{
+    background-image: url("./brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.png");    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.t-logo{
+    display: flex;
+    flex-direction: row;
+    font-size: 47px;
+    margin-left: 126px;
+    margin-top: 8px;
+}
+.t-text{
+    color: #FFFFFF;
+}
+.dot{
+    color: #0BBEF2;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Products{
+    margin-top: 18px;
+    color: #FFFFFF;
+}
+.Services{
+    margin-top: 18px;
+    color: #FFFFFF;
+    margin-left: 25px;
+}
+.Contact{
+    margin-top: 18px;
+    margin-left: 25px;
+}
+.Log-in{
+    margin-top: 18px;
+    margin-left: 25px;
+}
+.buttonz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.Get-Access{
+    margin-top: 18px;
+    border: 2px solid rgb(159, 157, 151);
+    width: 128px;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 200px;
+}
