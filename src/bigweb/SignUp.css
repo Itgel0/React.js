@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    height: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+  }
+  .signUp{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+  }
+  .line{
+    border: 1px solid rgb(181, 181, 181);
+    width: 550px;
+    height: 0px;
+    background-color: rgb(181, 181, 181);
+    margin-left: 15px;
+  }
+  .Big{
+    color: rgb(29, 29, 29);
+    font-weight: 600;
+  }
+  .Name{
+    display: flex;
+    flex-direction: column;
+  }
+  input{
+    border: none;
+    width: 629.27px;
+    height: 30px;
+  }
+  .line2{
+    width: 629.27px;
+    border: 1px solid rgb(181, 181, 181);
+    height: 0px;
+    background-color: rgb(181, 181, 181);
+  }
+  p{
+    color: rgb(68, 68, 68);
+  }
+  button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(66, 85, 179);
+    color: white;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 17px;
+    border: none;
+    margin-top: 60px;
+  }
+  .line3{
+    width: 629.27px;
+    border: 1px solid rgb(181, 181, 181);
+    height: 0px;
+    background-color: rgb(181, 181, 181);
+  }
+  
