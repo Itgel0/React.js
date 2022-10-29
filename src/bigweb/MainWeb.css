@@ -1,4 +1,8 @@
-.webContainer{
+body{
+    width: 100vh;
+    height: 100vw;
+}
+.first-page{
     background-image: url("./brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.png");    
     width: 100vw;
     height: 100vh;
@@ -9,7 +13,7 @@
     display: flex;
     flex-direction: row;
     font-size: 47px;
-    margin-left: 126px;
+    margin-left: 140px;
     margin-top: 8px;
 }
 .t-text{
@@ -17,6 +21,7 @@
 }
 .dot{
     color: #0BBEF2;
+    font-weight: 900;
 }
 .top{
     display: flex;
@@ -26,19 +31,37 @@
 .Products{
     margin-top: 18px;
     color: #FFFFFF;
+    border: none;
+    background-color: unset;
+    border-radius: 5px;
+    font-size: 20px;
 }
 .Services{
     margin-top: 18px;
     color: #FFFFFF;
     margin-left: 25px;
+    border-radius: 5px;
+    background-color: unset;
+    border: none;
+    font-size: 20px;
 }
 .Contact{
     margin-top: 18px;
     margin-left: 25px;
+    border-radius: 5px;
+    background-color: unset;
+    color: #FFFFFF;
+    border: none;
+    font-size: 20px;
 }
 .Log-in{
     margin-top: 18px;
     margin-left: 25px;
+    border-radius: 5px;
+    background-color: unset;
+    color: #FFFFFF;
+    border: none;
+    font-size: 20px;
 }
 .buttonz{
     display: flex;
@@ -55,6 +78,57 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 50px;
     margin-right: 200px;
+    background-color: unset;
+    color: rgb(159, 157, 151);
+    font-size: 17px;
+    font-weight: 600;
+}
+.Bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 140px;
+    margin-top: 261px;
+}
+.bigText{
+    color: #FFFFFF;
+    font-size: 56px;
+    width: 575px;
+    font-weight: 700;
+}
+.smallText{
+    color: #FFFFFF;
+    width: 350px;
+    height: 58px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.emailnBtn{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.typeEmail{
+    color: #6D7D8B;
+    width: 330px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.sendBtn{
+    border: none;
+    background-color: #0BBEF2;
+    margin-left: 20px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    width: 192px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Mulish';
+    font-style: normal;
+    line-height: 24px;
 }

@@ -32,7 +32,7 @@ body{
     display: flex;
     flex-direction: column;
   }
-  input{
+  .typer{
     border: none;
     width: 629.27px;
     height: 30px;
@@ -46,7 +46,7 @@ body{
   p{
     color: rgb(68, 68, 68);
   }
-  button{
+  .blueBtn{
     width: 120px;
     height: 40px;
     background-color: rgb(66, 85, 179);

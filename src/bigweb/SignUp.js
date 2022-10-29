@@ -21,15 +21,15 @@ const Todo = () => {
       </div>
       <div className="Name">
         <p>Name</p>
-        <input ref={inputName} placeholder="Enter your name"></input>
+        <input className="typer" ref={inputName} placeholder="Enter your name"></input>
         <div className="line2"></div>
       </div>
       <div className="Email">
         <p>Email</p>
-        <input ref={inputEmail} placeholder="Enter your gmail"></input>
+        <input className="typer" ref={inputEmail} placeholder="Enter your gmail"></input>
         <div className="line3"></div>
       </div>
-      <button onClick={Alert}>SUBMIT</button>
+      <button className="blueBtn" onClick={Alert}>SUBMIT</button>
     </div>
   );
 };
