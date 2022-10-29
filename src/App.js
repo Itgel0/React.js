@@ -1,37 +1,39 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
-import Home from "./bigweb/Home";
+import Task from "./bigweb/Task";
 import StpWatch from "./bigweb/StpWatch";
 import SignUp from "./bigweb/SignUp";
 import MainWeb from "./bigweb/MainWeb";
-import teamwork from "./bigweb/teamwork";
-import './App.css';
+import Teamwork from "./bigweb/Teamwork";
+import "./App.css";
 
 function App() {
+  const Header = () => {
+    return (
+      <div className="App">
+        <Link to="/Task">Task</Link>
+        <Link to="/Todo">Todo</Link>
+        <Link to="/SignUp">SignUp</Link>
+        <Link to="MainWeb"></Link>
+        <Link to="StpWatch">StpWatch</Link>
+        <Link to="Teamwork">Teamwork</Link>
+      </div>
+    );
+  };
 
-const Header = () => {
   return (
-    <div className="App">
-      <Link to="/Home">Home</Link>
-      <Link to="/Todo">Todo</Link>
-      <Link to="/SignUp">SignUp</Link>
-    </div>
-  )
-}
+    <BrowserRouter>
+      <Routes>
+        <Route path="/Task" element={<Task />} />
+        <Route path="/StpWatch" element={<StpWatch />} />
+        <Route path="SignUp" element={<SignUp />} />
 
-return(
-  <BrowserRouter>
-    <Routes>
-      <Route path="/Home" element={<Home />} />
-      <Route path="/StpWatch" element={<StpWatch />} />
-      <Route path="/SignUp" element={<SignUp />} />
-      <Route path="/MainWeb" element={<MainWeb/>} />
-      <Route path="/teamwork" element={<teamwork/>} />
-    </Routes>
-  </BrowserRouter>
-)
-
+        <Route path="MainWeb" element={<MainWeb />}></Route>
+        <Route path="/Teamwork" element={<Teamwork />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;

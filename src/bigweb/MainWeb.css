@@ -132,3 +132,13 @@ body{
     font-style: normal;
     line-height: 24px;
 }
+.Routerz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.btmRouter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

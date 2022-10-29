@@ -1,8 +1,18 @@
+import { Link } from "react-router-dom";
+
 import React from "react";
 
-const Home = () => {
+const Task = () => {
   return (
+    
     <div className="app-container">
+      <div className="Routers">
+          <Link to="/Task">Task</Link>
+          <Link to="SignUp">SignUp</Link>
+          <Link to="MainWeb">MainWeb</Link>
+          <Link to="StpWatch">StpWatch</Link>
+          <Link to="Teamwork">Teamwork</Link>
+      </div>
       <div className="quote">
         <div
           className="stars"
@@ -36,4 +46,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Task;

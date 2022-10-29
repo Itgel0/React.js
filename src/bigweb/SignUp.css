@@ -63,4 +63,9 @@ body{
     height: 0px;
     background-color: rgb(181, 181, 181);
   }
-  
+.Routerx{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px
+}

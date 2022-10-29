@@ -15,6 +15,7 @@ const Todo = () => {
 
   return (
     <div className="container">
+      
       <div className="signUp">
         <div className="Big">SIGN UP</div>
         <div className="line"></div>
@@ -30,6 +31,12 @@ const Todo = () => {
         <div className="line3"></div>
       </div>
       <button className="blueBtn" onClick={Alert}>SUBMIT</button>
+     <div className="Routerx">
+          <Link to="/Task">Task</Link>
+          <Link to="SignUp">SignUp</Link>
+          <Link to="MainWeb">MainWeb</Link>
+          <Link to="StpWatch">StpWatch</Link>
+      </div> 
     </div>
   );
 };

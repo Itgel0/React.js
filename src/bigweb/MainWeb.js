@@ -1,8 +1,9 @@
 import React, { useRef } from "react";
-
+import { Link } from "react-router-dom";
 import './MainWeb.css';
 
 const MainWeb = () => {
+    
     const inptEmail = useRef();
 
     const Alert = () => {
@@ -13,7 +14,13 @@ const MainWeb = () => {
 
     return(
         <div className="webContainer">
+
             <div className="first-page">
+                <div className="Routerz">
+                    <Link to="/Task">Task</Link>
+                    <Link to="/SignUp">SignUp</Link>
+                    <Link to="/StpWatch">StpWatch</Link>
+                </div>
                 <div className="top">
                     <div className="t-logo">
                         <div className="t-text">team</div>
@@ -34,6 +41,9 @@ const MainWeb = () => {
                         <input className="typeEmail" ref={inptEmail} placeholder="Email"></input>
                         <button className="sendBtn" onClick={Alert}>Get early access</button>
                     </div>
+                </div>
+                <div className="btmRouter">
+                    <Link to="/Teamwork">Teamwork</Link>
                 </div>
             </div>
             <div className="second-page">
