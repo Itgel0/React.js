@@ -14,7 +14,6 @@ const MainWeb = () => {
 
     return(
         <div className="webContainer">
-
             <div className="first-page">
                 <div className="Routerz">
                     <Link to="/Task">Task</Link>
@@ -41,9 +40,6 @@ const MainWeb = () => {
                         <input className="typeEmail" ref={inptEmail} placeholder="Email"></input>
                         <button className="sendBtn" onClick={Alert}>Get early access</button>
                     </div>
-                </div>
-                <div className="btmRouter">
-                    <Link to="/Teamwork">Teamwork</Link>
                 </div>
             </div>
             <div className="second-page">

@@ -1,0 +1,43 @@
+.container-of-evrt{
+    display: flex;
+    justify-content: space-evenly;
+}
+.first-work{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.brok-pic{
+    width: 624px;
+    height: 575px;
+    border: none;
+    border-radius: inherit;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+.big-title{
+    height: 120px;
+    width: 398px;
+    left: 698px;
+    top: 1995px;
+    border-radius: nullpx;
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+.lil-title{
+    height: 145px;
+    width: 465px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin-right: 300px;
+}

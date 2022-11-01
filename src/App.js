@@ -6,6 +6,8 @@ import StpWatch from "./bigweb/StpWatch";
 import SignUp from "./bigweb/SignUp";
 import MainWeb from "./bigweb/MainWeb";
 import Teamwork from "./bigweb/Teamwork";
+import Work from "./bigweb/Work";
+
 import "./App.css";
 
 function App() {
@@ -28,10 +30,13 @@ function App() {
         <Route path="/Task" element={<Task />} />
         <Route path="/StpWatch" element={<StpWatch />} />
         <Route path="SignUp" element={<SignUp />} />
-
-        <Route path="MainWeb" element={<MainWeb />}></Route>
+        {/* <Route path="MainWeb" element={<MainWeb />}></Route>
         <Route path="/Teamwork" element={<Teamwork />} />
+        <Route path="/Work" element={<Work />} /> */}
       </Routes>
+      <MainWeb />
+      <Teamwork />
+      <Work />
     </BrowserRouter>
   );
 }

@@ -14,9 +14,6 @@ const Teamwork = () => {
             <div className="second-container">
                 <img className="bigPic" src={require('./ooto Meetings 1.png')}></img>
             </div>
-            <div className="next-page">
-                <Link to="/Work">Work</Link>
-            </div>
         </div>
     )
 }
