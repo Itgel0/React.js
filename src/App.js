@@ -7,7 +7,9 @@ import SignUp from "./bigweb/SignUp";
 import MainWeb from "./bigweb/MainWeb";
 import Teamwork from "./bigweb/Teamwork";
 import Work from "./bigweb/Work";
-import proof from "./bigweb/proof";
+import Proof from "./bigweb/Proof";
+import Components from "./bigweb/Components";
+import Social from "./bigweb/Social";
 import "./App.css";
 
 function App() {
@@ -18,11 +20,13 @@ function App() {
         <Route path="/Task" element={<Task />} />
         <Route path="/StpWatch" element={<StpWatch />} />
         <Route path="SignUp" element={<SignUp />} />
-        <Route path="proof" element={<proof />} />
-        {/* <Route path="MainWeb" element={<MainWeb />}></Route>
+        {/*<Route path="Proof" element={<Proof />} />
+        <Route path="Components" element={<Components />} />
+        <Route path="Social" element={<Social />} />
+         <Route path="MainWeb" element={<MainWeb />}></Route>
         <Route path="/Teamwork" element={<Teamwork />} />
         <Route path="/Work" element={<Work />} />
-        <Route path="/proof" element={<proof> />} */}
+        <Route path="/Proof" element={<Proof> />} */}
       </Routes>
     </BrowserRouter>
   );
@@ -35,7 +39,9 @@ const Home = () => {
       <MainWeb />
       <Teamwork />
       <Work />
-      
+      <Proof />
+      <Components />
+      <Social />
     </div>
   );
 };
@@ -48,8 +54,6 @@ const Header = () => {
       <Link to="/SignUp">SignUp</Link>
       <Link to="MainWeb">MainWeb</Link>
       <Link to="StpWatch">StpWatch</Link>
-      <Link to="Teamwork">Teamwork</Link>
-      <Link to="proof">proof</Link>
     </div>
   );
 };

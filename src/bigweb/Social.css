@@ -1,0 +1,20 @@
+.bodyOfEnd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+}
+
+.containerOfEnd{
+    display: flex;
+    border: 1px solid #252B3B;
+    height: 336px;
+    width: 1643px;
+    background-color: #252B3B;
+    flex-direction: row;
+}
+
+.logos{
+   display: flex;
+   flex-direction: column;
+}
