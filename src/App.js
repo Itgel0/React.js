@@ -7,7 +7,6 @@ import SignUp from "./bigweb/SignUp";
 import MainWeb from "./bigweb/MainWeb";
 import Teamwork from "./bigweb/Teamwork";
 import Work from "./bigweb/Work";
-import Proof from "./bigweb/Proof";
 import Components from "./bigweb/Components";
 import Social from "./bigweb/Social";
 import "./App.css";
@@ -25,8 +24,7 @@ function App() {
         <Route path="Social" element={<Social />} />
          <Route path="MainWeb" element={<MainWeb />}></Route>
         <Route path="/Teamwork" element={<Teamwork />} />
-        <Route path="/Work" element={<Work />} />
-        <Route path="/Proof" element={<Proof> />} */}
+        <Route path="/Work" element={<Work />} /> */}
       </Routes>
     </BrowserRouter>
   );
@@ -39,7 +37,6 @@ const Home = () => {
       <MainWeb />
       <Teamwork />
       <Work />
-      <Proof />
       <Components />
       <Social />
     </div>

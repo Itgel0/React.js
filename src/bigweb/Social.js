@@ -12,6 +12,7 @@ const Social = () => {
                         <div className="t-text">team</div>
                         <div className="dot">.</div>
                     </div>
+                    <img className="scialApp" src={require('./Screen Shot 2022-11-05 at 09.49.03.png')}></img>
                 </div>
             </div>
         </div>

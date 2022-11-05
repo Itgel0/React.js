@@ -1,6 +1,10 @@
-body{
+.webContainer{
+    width: 100vw;
+    height: 100%;
+}
+.body{
     width: 100vh;
-    height: 100vw;
+    height: 200px;
 }
 .first-page{
     background-image: url("./brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.png");    
