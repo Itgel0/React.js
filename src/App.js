@@ -10,7 +10,6 @@ import Work from "./bigweb/Work";
 import Components from "./bigweb/Components";
 import Social from "./bigweb/Social";
 import "./App.css";
-
 function App() {
   return (
     <BrowserRouter>
