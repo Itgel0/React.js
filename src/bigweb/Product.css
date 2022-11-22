@@ -1,15 +1,50 @@
 .App{
     display: flex;
     flex-direction: column;
-    
+    width: 100vw;
+    height: 100vh;
+
 }
 .img-container{
     display: flex;
     flex-direction: column-reverse;
     border-radius: 30px;
     width: 370px;
+    margin-left: 140px;
+}
+img{
+    width: 370px;
+    height: 260px;
 }
 .req{
     border: none;
     border-radius: inherit;
+}
+.t-logo-two{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    margin-left: 140px;
+    margin-top: 8px;
+    font-weight: 900;
+    font-style: italic;
+}
+.t-text-two{
+    color: black;
+}
+.dot-two{
+    color: black;
+    font-weight: 900;
+}
+.wht-its-abt{
+    margin-left: 140px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: 700;
+    font-style: oblique;
+}
+.txts{
+    margin-left: 140px;
+    font-size: 15px;
 }

@@ -26,7 +26,12 @@ const Product = () => {
   return (
     <div className="App">
       <button className="req" onClick={getData}>sending request</button>
-
+      <div className="t-logo-two">
+          <div className="t-text-two">team</div>
+          <div className="dot-two">.</div>
+      </div>
+      <div className="wht-its-abt">Blog posts</div>
+      <div className="txts">Our latest updates and blogs about managing your team</div>
       {data.map((cur) => (
         <div className="img-container">
           {cur.text}
