@@ -26,10 +26,18 @@ const MainWeb = () => {
                         <div className="dot">.</div>
                     </div>
                     <div className="buttonz">
-                        <button className="Products">Products</button>
-                        <button className="Services">Services</button>
-                        <button className="Contact">Contact</button>
-                        <button className="Log-in">Log in</button>
+                        <div className="Products">
+                            <Link to="Products">Product</Link>
+                        </div>
+                        <div className="Services">
+                            <Link to="Services">Services</Link>
+                        </div>
+                        <div className="Contact">
+                            <Link to="Contact">Contact</Link>
+                        </div>
+                        <div className="Log-in">
+                            <Link to="Log-in">Log in</Link>
+                        </div>
                         <button className="Get-Access">Get Access</button>
                     </div>
                 </div>

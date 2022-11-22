@@ -5,19 +5,25 @@ import Task from "./bigweb/Task";
 import StpWatch from "./bigweb/StpWatch";
 import SignUp from "./bigweb/SignUp";
 import MainWeb from "./bigweb/MainWeb";
+import Product from "./bigweb/Product";
+import "./App.css";
+{
+  /*
 import Teamwork from "./bigweb/Teamwork";
 import Work from "./bigweb/Work";
 import Components from "./bigweb/Components";
-import Social from "./bigweb/Social";
-import "./App.css";
+import Social from "./bigweb/Social";*/
+}
 function App() {
   return (
+    // <Con
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Task" element={<Task />} />
         <Route path="/StpWatch" element={<StpWatch />} />
-        <Route path="SignUp" element={<SignUp />} />
+        <Route path="/SignUp" element={<SignUp />} />
+        <Route path="/Products" element={<Product />} />
         {/*<Route path="Proof" element={<Proof />} />
         <Route path="Components" element={<Components />} />
         <Route path="Social" element={<Social />} />
@@ -34,24 +40,17 @@ const Home = () => {
     <div>
       <Header />
       <MainWeb />
-      <Teamwork />
-      <Work />
-      <Components />
-      <Social />
+      {/*
+      <Teamwork />     
+      <Work />     
+     <Components />
+      <Social />*/}
     </div>
   );
 };
 
 const Header = () => {
-  return (
-    <div className="App">
-      <Link to="/Task">Task</Link>
-      <Link to="/Todo">Todo</Link>
-      <Link to="/SignUp">SignUp</Link>
-      <Link to="MainWeb">MainWeb</Link>
-      <Link to="StpWatch">StpWatch</Link>
-    </div>
-  );
+  return <div className="App"></div>;
 };
 
 export default App;

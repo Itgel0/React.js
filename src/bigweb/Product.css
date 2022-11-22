@@ -1,0 +1,15 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    
+}
+.img-container{
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 30px;
+    width: 370px;
+}
+.req{
+    border: none;
+    border-radius: inherit;
+}
